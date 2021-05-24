@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  php:
+    container_name: php
+    build:
+      context: ./php
+    volumes:
+      - ../app:/var/app
